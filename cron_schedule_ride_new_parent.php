@@ -5,7 +5,7 @@
 	//include_once('common.php');     
     
   
-  geturl("https://www.rabbitsend.com/cron_schedule_ride_new.php");
+  geturl("https://www.tradeconceptgroup.com/cron_schedule_ride_new.php");
   
   function geturl($url){
      $ch = curl_init();

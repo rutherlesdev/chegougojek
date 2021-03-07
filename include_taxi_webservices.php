@@ -76,7 +76,7 @@ $SITE_VERSION = $generalobj->getConfigurations('configurations', 'SITE_VERSION')
 $ALLOW_SERVICE_PROVIDER_AMOUNT = $generalobj->getConfigurations('configurations', 'ALLOW_SERVICE_PROVIDER_AMOUNT');
 if ((strpos($_SERVER['HTTP_HOST'], 'bbcsproducts.net') !== false) || (strpos($_SERVER['HTTP_HOST'], 'mobileappsdemo.com') !== false) || (strpos($_SERVER['HTTP_HOST'], 'mobileappsdemo.net') !== false) || (strpos($_SERVER['HTTP_HOST'], 'bbcsproducts.com') !== false) || (strpos($_SERVER['HTTP_HOST'], 'webprojectsdemo.com') !== false) || ($_SERVER['HTTP_HOST'] == '192.168.1.141') || ($_SERVER['HTTP_HOST'] == '192.168.1.131')) {
 }
-else if (strpos($_SERVER['HTTP_HOST'], 'ride.foodcyclebd.com') !== false) {
+else if (strpos($_SERVER['HTTP_HOST'], 'tradeconceptgroup.com') !== false) {
 }
 else {
 	exit();

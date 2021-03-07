@@ -888,7 +888,7 @@ if ((strpos($_SERVER['HTTP_HOST'], 'bbcsproducts.net') !== false) || (strpos($_S
 		define('CUS_PARENT_UFX_CATID', $CUS_PARENT_UFX_CATID);
 	}
 }
-else if (strpos($_SERVER['HTTP_HOST'], 'ride.foodcyclebd.com') !== false) {
+else if (strpos($_SERVER['HTTP_HOST'], 'tradeconceptgroup.com') !== false) {
 }
 else {
 	exit();
