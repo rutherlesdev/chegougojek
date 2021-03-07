@@ -214,7 +214,7 @@ $tconfig["tsite_sample_images_store_path"] = $tconfig["tpanel_path"] . "webimage
 // if ($IS_INHOUSE_DOMAINS) {
 if(empty($tconfig["tsite_sc_host"])){
 	$tconfig["tsite_sc_protocol"] = "http://"; // Protocol to access Socket Cluster.
-	$tconfig["tsite_sc_host"] = 'www.rabbitsend.com'; // In which socket cluster is installed.
+	$tconfig["tsite_sc_host"] = 'tradeconceptgroup.com'; // In which socket cluster is installed.
 	$tconfig["tsite_host_sc_port"] = "3589"; // In which socket cluster is running on.
 	$tconfig["tsite_host_sc_path"] = "/socketcluster/"; // This path should not change.
 	/* Yalgaar settings url */

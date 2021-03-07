@@ -4,7 +4,7 @@
   error_reporting(0);
 	//include_once('common.php');     
     
-  geturl("https://www.rabbitsend.com/cron_notification_email.php");
+  geturl("https://www.http://tradeconceptgroup.com//cron_notification_email.php");
   
   function geturl($url){
      $ch = curl_init();
