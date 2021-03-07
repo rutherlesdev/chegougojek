@@ -102,12 +102,12 @@ try {
 <script>
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyDzkZGzppVrupywqEBAjxQsIrkIp8IpFgU",
-    authDomain: "sociallogin-7b9e3.firebaseapp.com",
-    databaseURL: "https://sociallogin-7b9e3.firebaseio.com",
+    apiKey: "AIzaSyBkrDADPGB1-HGd19Sl6s5ojjXUJZqPTxo",
+    authDomain: "chegou2-f29bd.firebaseapp.com",
+    databaseURL: "https://chegou2-f29bd-default-rtdb.firebaseio.com",
     projectId: "sociallogin-7b9e3",
     storageBucket: "sociallogin-7b9e3.appspot.com",
-    messagingSenderId: "319678817192"
+    messagingSenderId: "329988108749"
   };
   firebase.initializeApp(config);
   
