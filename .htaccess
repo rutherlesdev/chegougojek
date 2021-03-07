@@ -10,7 +10,7 @@ RewriteCond %{HTTP_HOST} !192.168.1.141 [NC]
 RewriteCond %{HTTP_HOST} !192.168.1.151 [NC]
 RewriteCond %{REQUEST_FILENAME} !\.(css|js|png|jpg|less|jpeg|bmp|gif|woff2|ttf|woff)$ [NC]
 RewriteCond %{REQUEST_URI} !/admin/map_tracking.php|/admin/ajax_getdriver_detail.php|ajax_getdirver_detail.php|trip_tracking.php|trip_tracking_multi_delivery.php|webservice_shark.php|webservice_shark_1.php|resizeImg.php|invoice_deliverall.php|invoice.php|ajax_estimate_by_vehicle_type.php|cx-invoice_deliverall.php|get_reverse_geocoding_file_content.php|/admin/server_details.php [NC]
-RewriteRule ^(.*)$ https://appadmin.com.br%{REQUEST_URI} [L,R=301] 
+RewriteRule ^(.*)$ https://tradeconceptgroup.com%{REQUEST_URI} [L,R=301] 
 
 # Force No SSL on Socket cluster dependent pages
 RewriteCond %{HTTPS} on [NC]
@@ -18,7 +18,7 @@ RewriteCond %{HTTP_HOST} !192.168.1.131 [NC]
 RewriteCond %{HTTP_HOST} !192.168.1.141 [NC] 
 RewriteCond %{HTTP_HOST} !192.168.1.151 [NC]
 RewriteCond %{REQUEST_URI} /admin/map_tracking.php|/admin/ajax_getdriver_detail.php|ajax_getdirver_detail.php|trip_tracking.php|trip_tracking_multi_delivery.php|invoice_deliverall.php|invoice.php|cx-invoice_deliverall.php|/admin/server_details.php [NC]
-RewriteRule ^(.*)$ http://appadmin.com.br%{REQUEST_URI} [L,R=301]
+RewriteRule ^(.*)$ http://tradeconceptgroup.com%{REQUEST_URI} [L,R=301]
 
 #get_reverse_geocoding_file_content.php file is included only in first block bc some are http and some are https..
 
@@ -187,7 +187,7 @@ RewriteRule ^otherservices$ cx-otherservices.php
 
 #RewriteRule ^sign-in.php$ cx-sign-in
 
-ErrorDocument 404 https://appadmin.com.br/Page-Not-Found
+ErrorDocument 404 https://tradeconceptgroup.com/Page-Not-Found
 
 <IfModule mod_rewrite.c>
  #RewriteEngine on
